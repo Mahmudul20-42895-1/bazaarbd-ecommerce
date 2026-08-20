@@ -6,6 +6,7 @@ const multer = require('multer');
 
 const app = express();
 const PORT = process.env.PORT || 8000;
+const publicBaseUrl = (process.env.PUBLIC_API_URL || process.env.RENDER_EXTERNAL_URL || `http://localhost:${PORT}`).replace(/\/$/, '');
 
 app.use(cors({
   origin: '*',
@@ -349,16 +350,27 @@ function loadDB() {
   if (!fs.existsSync(dbPath)) {
     const initial = getInitialData();
     fs.writeFileSync(dbPath, JSON.stringify(initial, null, 2), 'utf8');
-    return initial;
+    return normalizeAssetUrls(initial);
   }
   try {
     const raw = fs.readFileSync(dbPath, 'utf8');
-    return JSON.parse(raw);
+    return normalizeAssetUrls(JSON.parse(raw));
   } catch (err) {
     const initial = getInitialData();
     fs.writeFileSync(dbPath, JSON.stringify(initial, null, 2), 'utf8');
-    return initial;
+    return normalizeAssetUrls(initial);
   }
+}
+
+function normalizeAssetUrls(value) {
+  if (typeof value === 'string') {
+    return value.replace(/^http:\/\/localhost:\d+/, publicBaseUrl);
+  }
+  if (Array.isArray(value)) return value.map(normalizeAssetUrls);
+  if (value && typeof value === 'object') {
+    return Object.fromEntries(Object.entries(value).map(([key, entry]) => [key, normalizeAssetUrls(entry)]));
+  }
+  return value;
 }
 
 function saveDB(data) {
@@ -394,7 +406,7 @@ app.post('/api/v1/admin/upload', upload.single('image'), (req, res) => {
   if (!req.file) {
     return res.status(400).json({ success: false, message: 'No image uploaded' });
   }
-  const fileUrl = `http://localhost:${PORT}/uploads/${req.file.filename}`;
+  const fileUrl = `${publicBaseUrl}/uploads/${req.file.filename}`;
   res.json({ success: true, url: fileUrl, filename: req.file.filename });
 });
 
