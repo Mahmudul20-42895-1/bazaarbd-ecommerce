@@ -25,9 +25,9 @@ npm run dev -- -p 3001
 ```
 
 ## 🌐 Live URLs
-- **Storefront**: http://localhost:3000
-- **Admin Dashboard**: http://localhost:3001 (Login: `admin@bazaarbd.com` / `admin123`)
-- **API Health**: http://localhost:8000/api/v1/health
+- **Storefront**: [Open BazaarBD Storefront](https://bazaarbd-ecommerce.vercel.app)
+- **Admin Dashboard**: [Open BazaarBD Admin](https://bazaarbd-admin-pfy5ehjg2-md-mahmudul-hasans-projects-5eead7ea.vercel.app)
+- **API Health**: [Check API Health](https://bazaarbd-api.onrender.com/api/v1/health)
 
 
 ## Tech Stack
