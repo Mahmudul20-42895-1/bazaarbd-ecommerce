@@ -9,6 +9,10 @@ build/
 !.env.example
 server/uploads/*
 !server/uploads/.gitkeep
+!server/uploads/1787062588795-vgyyoqt2o.jpg
+!server/uploads/1787062890983-hymlp0ta2.jpg
+!server/uploads/1787062977931-pjvsmu3d4.png
+!server/uploads/1787068763732-1767q3ts1.jpg
 backend/vendor/
 backend/storage/*.key
 backend/storage/app/public/
