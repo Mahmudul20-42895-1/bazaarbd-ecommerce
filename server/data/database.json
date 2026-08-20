@@ -1,0 +1,1363 @@
+{
+  "products": [
+    {
+      "id": "1787068775769",
+      "name": "asdsfw",
+      "name_bn": "sdfaf",
+      "slug": "asdsfw",
+      "sku": "sadfasf",
+      "price": 1324,
+      "salePrice": 222,
+      "category": "Home & Living",
+      "categoryId": "6",
+      "brand": "Otobi",
+      "brandId": "1",
+      "stock": 48,
+      "images": [
+        "http://localhost:8000/uploads/1787068763732-1767q3ts1.jpg"
+      ],
+      "rating": 5,
+      "reviewCount": 0,
+      "inStock": true,
+      "isFeatured": true,
+      "description": "sdasfasf",
+      "status": "active",
+      "createdAt": "2026-08-18T15:59:35.769Z",
+      "updatedAt": "2026-08-18T16:01:58.396Z"
+    },
+    {
+      "id": "1787063508224",
+      "name": "Walton Soundbar Pro 120W with Subwoofer",
+      "name_bn": "?????? ????????? ???? ??? ????",
+      "slug": "walton-soundbar-pro-120w-with-subwoofer",
+      "sku": "BZ-ELC-105",
+      "price": 9800,
+      "salePrice": 8500,
+      "category": "Electronics",
+      "categoryId": "2",
+      "brand": "Walton Hi-Tech",
+      "brandId": "1",
+      "stock": 24,
+      "images": [
+        "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=600"
+      ],
+      "rating": 5,
+      "reviewCount": 0,
+      "inStock": true,
+      "isFeatured": true,
+      "description": "Home theatre soundbar with wireless bluetooth 5.3 and optical input.",
+      "status": "active",
+      "createdAt": "2026-08-18T14:31:48.224Z"
+    },
+    {
+      "id": "1787063508221",
+      "name": "Brass Embossed Peacock Showpiece",
+      "name_bn": "?????? ????? ??-???",
+      "slug": "brass-embossed-peacock-showpiece",
+      "sku": "BZ-DCR-104",
+      "price": 2400,
+      "salePrice": 1950,
+      "category": "Handicrafts & Decor",
+      "categoryId": "3",
+      "brand": "Dhamrai Brass Crafts",
+      "brandId": "1",
+      "stock": 29,
+      "images": [
+        "https://images.unsplash.com/photo-1581337204873-ef36aa186caa?w=600"
+      ],
+      "rating": 5,
+      "reviewCount": 0,
+      "inStock": true,
+      "isFeatured": true,
+      "description": "Traditional hand-carved solid brass peacock figurine crafted by master metalsmiths in Dhamrai.",
+      "status": "active",
+      "createdAt": "2026-08-18T14:31:48.221Z"
+    },
+    {
+      "id": "1787063508218",
+      "name": "Vintage Tan Leather Duffle Travel Bag",
+      "name_bn": "????? ????? ??????? ?????",
+      "slug": "vintage-tan-leather-duffle-travel-bag",
+      "sku": "BZ-LTH-103",
+      "price": 6200,
+      "salePrice": 5400,
+      "category": "Leather & Footwear",
+      "categoryId": "4",
+      "brand": "Picasso Leather",
+      "brandId": "1",
+      "stock": 18,
+      "images": [
+        "https://images.unsplash.com/photo-1627123424574-724758594e93?w=600"
+      ],
+      "rating": 5,
+      "reviewCount": 0,
+      "inStock": true,
+      "isFeatured": true,
+      "description": "Handcrafted genuine leather weekender travel bag with padded strap.",
+      "status": "active",
+      "createdAt": "2026-08-18T14:31:48.218Z"
+    },
+    {
+      "id": "1787063508215",
+      "name": "Meenakari Kundan Bridal Choker Set",
+      "name_bn": "???????? ?????? ???????? ?????",
+      "slug": "meenakari-kundan-bridal-choker-set",
+      "sku": "BZ-JWL-102",
+      "price": 8500,
+      "salePrice": 7200,
+      "category": "Jewelry",
+      "categoryId": "5",
+      "brand": "Diamond World BD",
+      "brandId": "1",
+      "stock": 12,
+      "images": [
+        "https://images.unsplash.com/photo-1596462502278-27bf85033e5a?w=600"
+      ],
+      "rating": 5,
+      "reviewCount": 0,
+      "inStock": true,
+      "isFeatured": true,
+      "description": "Hand-enameled Meenakari jewelry set with pearls and Kundan work.",
+      "status": "active",
+      "createdAt": "2026-08-18T14:31:48.215Z"
+    },
+    {
+      "id": "1787063508187",
+      "name": "Luxury Velvet Sofa Cushion Set",
+      "name_bn": "?????? ???? ???? ???",
+      "slug": "luxury-velvet-sofa-cushion-set",
+      "sku": "BZ-HML-101",
+      "price": 3200,
+      "salePrice": 2800,
+      "category": "Home & Living",
+      "categoryId": "6",
+      "brand": "Otobi Home",
+      "brandId": "1",
+      "stock": 20,
+      "images": [
+        "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?w=600"
+      ],
+      "rating": 5,
+      "reviewCount": 0,
+      "inStock": true,
+      "isFeatured": true,
+      "description": "Set of 5 premium embroidered velvet cushions for living room sofa.",
+      "status": "active",
+      "createdAt": "2026-08-18T14:31:48.187Z"
+    },
+    {
+      "id": "1787063444040",
+      "name": "Handmade Clay Terracotta Flower Vase",
+      "name_bn": "????? ???????? ???????",
+      "slug": "handmade-clay-terracotta-flower-vase",
+      "sku": "BZ-DCR-012",
+      "price": 1150,
+      "salePrice": 950,
+      "category": "Handicrafts & Decor",
+      "categoryId": "1",
+      "brand": "Kumorpara Artisans",
+      "brandId": "1",
+      "stock": 40,
+      "images": [
+        "https://images.unsplash.com/photo-1581337204873-ef36aa186caa?w=600"
+      ],
+      "rating": 5,
+      "reviewCount": 0,
+      "inStock": true,
+      "isFeatured": true,
+      "description": "Traditional burnt clay terracotta vase crafted in Bijoypur.",
+      "status": "active",
+      "createdAt": "2026-08-18T14:30:44.040Z"
+    },
+    {
+      "id": "1787063444037",
+      "name": "Genuine Buffalo Leather Messenger Bag",
+      "name_bn": "????? ??????? ???? ?????",
+      "slug": "genuine-buffalo-leather-messenger-bag",
+      "sku": "BZ-LTH-011",
+      "price": 4800,
+      "salePrice": 4200,
+      "category": "Leather & Footwear",
+      "categoryId": "1",
+      "brand": "Bay Footwear",
+      "brandId": "1",
+      "stock": 25,
+      "images": [
+        "https://images.unsplash.com/photo-1627123424574-724758594e93?w=600"
+      ],
+      "rating": 5,
+      "reviewCount": 0,
+      "inStock": true,
+      "isFeatured": true,
+      "description": "Full grain leather laptop messenger bag with brass buckles.",
+      "status": "active",
+      "createdAt": "2026-08-18T14:30:44.037Z"
+    },
+    {
+      "id": "1787063444034",
+      "name": "Traditional 22K Gold Plated Necklace",
+      "name_bn": "?? ??????? ????? ??????? ??????",
+      "slug": "traditional-22k-gold-plated-necklace",
+      "sku": "BZ-JWL-010",
+      "price": 14500,
+      "salePrice": 12900,
+      "category": "Jewelry",
+      "categoryId": "1",
+      "brand": "Apan Jewellers",
+      "brandId": "1",
+      "stock": 5,
+      "images": [
+        "https://images.unsplash.com/photo-1596462502278-27bf85033e5a?w=600"
+      ],
+      "rating": 5,
+      "reviewCount": 0,
+      "inStock": true,
+      "isFeatured": true,
+      "description": "Handmade gold plated bridal necklace with ruby stones.",
+      "status": "active",
+      "createdAt": "2026-08-18T14:30:44.034Z"
+    },
+    {
+      "id": "1787063444016",
+      "name": "Chittagong Teak Wood Dining Chair",
+      "name_bn": "??????????? ????? ????? ??????",
+      "slug": "chittagong-teak-wood-dining-chair",
+      "sku": "BZ-HML-009",
+      "price": 6800,
+      "salePrice": 5900,
+      "category": "Home & Living",
+      "categoryId": "1",
+      "brand": "Otobi Furniture",
+      "brandId": "1",
+      "stock": 15,
+      "images": [
+        "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?w=600"
+      ],
+      "rating": 5,
+      "reviewCount": 0,
+      "inStock": true,
+      "isFeatured": true,
+      "description": "Solid seasoned Chittagong teak wood chair with lacquer finish.",
+      "status": "active",
+      "createdAt": "2026-08-18T14:30:44.016Z"
+    },
+    {
+      "id": "1787062979875",
+      "name": "Hello",
+      "name_bn": "hello",
+      "slug": "hello",
+      "sku": "BZ-KHD-7745",
+      "price": 1232,
+      "salePrice": 1111,
+      "category": "Clothing & Apparel",
+      "categoryId": "1",
+      "brand": "Aarong",
+      "brandId": "1",
+      "stock": 50,
+      "images": [
+        "http://localhost:8000/uploads/1787062977931-pjvsmu3d4.png"
+      ],
+      "rating": 5,
+      "reviewCount": 0,
+      "inStock": true,
+      "isFeatured": true,
+      "description": "fsfsdf",
+      "status": "active",
+      "createdAt": "2026-08-18T14:22:59.875Z"
+    },
+    {
+      "id": "1787062894093",
+      "name": "Almari",
+      "name_bn": "Almari",
+      "slug": "almari",
+      "sku": "BZ-KHD-775",
+      "price": 45334,
+      "salePrice": 34454,
+      "category": "Home & Living",
+      "categoryId": "6",
+      "brand": "Aarong",
+      "brandId": "1",
+      "stock": 50,
+      "images": [
+        "http://localhost:8000/uploads/1787062890983-hymlp0ta2.jpg"
+      ],
+      "rating": 5,
+      "reviewCount": 0,
+      "inStock": true,
+      "isFeatured": true,
+      "description": "",
+      "status": "active",
+      "createdAt": "2026-08-18T14:21:34.093Z",
+      "updatedAt": "2026-08-18T14:32:43.180Z"
+    },
+    {
+      "id": "1787052379840",
+      "name": "Sonar Bangla Handloom Khadi Shirt",
+      "name_bn": "Mridul",
+      "slug": "sonar-bangla-handloom-khadi-shirt",
+      "sku": "BZ-KHD-777",
+      "price": 2450,
+      "salePrice": 1990,
+      "category": "Clothing & Apparel",
+      "categoryId": "1",
+      "brand": "Aarong",
+      "brandId": "1",
+      "stock": 30,
+      "images": [
+        "http://localhost:8000/uploads/1787062588795-vgyyoqt2o.jpg"
+      ],
+      "rating": 5,
+      "reviewCount": 0,
+      "inStock": true,
+      "isFeatured": true,
+      "description": "Eco-friendly handwoven organic Khadi cotton shirt made in Cumilla.",
+      "status": "active",
+      "createdAt": "2026-08-18T11:26:19.840Z",
+      "updatedAt": "2026-08-18T14:16:32.037Z"
+    },
+    {
+      "id": "1",
+      "name": "Premium Panjabi - Emerald Edition",
+      "name_bn": "প্রিমিয়াম পাঞ্জাবি - এমারেল্ড সংস্করণ",
+      "slug": "premium-panjabi-emerald",
+      "sku": "BZ-PNJ-001",
+      "price": 3500,
+      "salePrice": 2800,
+      "categoryId": "1",
+      "category": "Clothing",
+      "brandId": "1",
+      "brand": "Aarong",
+      "stock": 62,
+      "images": [
+        "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=800"
+      ],
+      "rating": 4.8,
+      "reviewCount": 124,
+      "inStock": true,
+      "isFeatured": true,
+      "description": "Crafted from fine cotton with intricate golden thread embroidery on collar and chest. Inspired by the lush green landscapes of Bangladesh.",
+      "createdAt": "2024-01-15T00:00:00.000Z",
+      "updatedAt": "2026-08-18T14:10:43.997Z"
+    },
+    {
+      "id": "2",
+      "name": "Jamdani Saree - Authentic Handloom Weave",
+      "name_bn": "ঐতিহ্যবাহী ঢাকাই জামদানি শাড়ি",
+      "slug": "jamdani-saree-authentic",
+      "sku": "BZ-JMD-002",
+      "price": 12500,
+      "salePrice": null,
+      "categoryId": "1",
+      "category": "Clothing",
+      "brandId": "1",
+      "brand": "Aarong",
+      "stock": 17,
+      "images": [
+        "https://images.unsplash.com/photo-1610030469983-98e550d6193c?w=600"
+      ],
+      "rating": 4.9,
+      "reviewCount": 56,
+      "inStock": true,
+      "isFeatured": true,
+      "description": "Handwoven by master artisans in Narayanganj using pure cotton and fine metallic zari motifs.",
+      "createdAt": "2024-02-10T00:00:00.000Z"
+    },
+    {
+      "id": "3",
+      "name": "Handcrafted Full-Grain Leather Wallet",
+      "name_bn": "হস্তশিল্পযুক্ত চামড়ার মানিব্যাগ",
+      "slug": "handcrafted-leather-wallet",
+      "sku": "BZ-LTH-003",
+      "price": 1200,
+      "salePrice": 990,
+      "categoryId": "4",
+      "category": "Leather Goods",
+      "brandId": "3",
+      "brand": "Apex",
+      "stock": 45,
+      "images": [
+        "https://images.unsplash.com/photo-1627123424574-724758594e93?w=600"
+      ],
+      "rating": 4.5,
+      "reviewCount": 32,
+      "inStock": true,
+      "isFeatured": true,
+      "description": "100% genuine vegetable-tanned Bangladeshi leather with 8 card slots, RFID protection, and dual currency compartments.",
+      "createdAt": "2024-03-01T00:00:00.000Z"
+    },
+    {
+      "id": "4",
+      "name": "Nakshi Kantha Traditional Wall Hanging",
+      "name_bn": "নকশী কাঁথা হস্তশিল্প প্রাচীর শিল্প",
+      "slug": "nakshi-kantha-wall",
+      "sku": "BZ-NKS-004",
+      "price": 4500,
+      "salePrice": null,
+      "categoryId": "3",
+      "category": "Handicrafts",
+      "brandId": "1",
+      "brand": "Aarong",
+      "stock": 8,
+      "images": [
+        "https://images.unsplash.com/photo-1581337204873-ef36aa186caa?w=600"
+      ],
+      "rating": 5,
+      "reviewCount": 18,
+      "inStock": true,
+      "isFeatured": true,
+      "description": "Hand-stitched folk tapestry capturing rural Bengali heritage scenes with vibrant multi-colored thread work.",
+      "createdAt": "2024-03-12T00:00:00.000Z"
+    },
+    {
+      "id": "5",
+      "name": "Walton Primo Smart ANC Wireless Earbuds",
+      "name_bn": "ওয়ালটন প্রিমিয়াম ব্লুটুথ ইয়ারবাডস",
+      "slug": "walton-primo-earbuds",
+      "sku": "BZ-WLT-005",
+      "price": 3200,
+      "salePrice": 2650,
+      "categoryId": "2",
+      "category": "Electronics",
+      "brandId": "4",
+      "brand": "Walton",
+      "stock": 35,
+      "images": [
+        "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=600"
+      ],
+      "rating": 4.6,
+      "reviewCount": 48,
+      "inStock": true,
+      "isFeatured": false,
+      "description": "Active Noise Cancellation, 36h total battery with case, environmental noise reduction, and water resistance.",
+      "createdAt": "2024-04-05T00:00:00.000Z"
+    },
+    {
+      "id": "6",
+      "name": "Apex Executive Leather Oxford Shoes",
+      "name_bn": "এপেক্স এক্সিকিউটিভ লেদার জুতো",
+      "slug": "apex-oxford-shoes",
+      "sku": "BZ-APX-006",
+      "price": 5490,
+      "salePrice": null,
+      "categoryId": "4",
+      "category": "Footwear",
+      "brandId": "3",
+      "brand": "Apex",
+      "stock": 22,
+      "images": [
+        "https://images.unsplash.com/photo-1533867617858-e7b97e060509?w=600"
+      ],
+      "rating": 4.7,
+      "reviewCount": 29,
+      "inStock": true,
+      "isFeatured": false,
+      "description": "Handcrafted dress shoes made from burnished leather with cushioned insoles for comfortable all-day office wear.",
+      "createdAt": "2024-05-18T00:00:00.000Z"
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "Clothing & Apparel",
+      "slug": "clothing",
+      "image": "https://images.unsplash.com/photo-1445205170230-053b83016050?w=500",
+      "count": 85
+    },
+    {
+      "id": "2",
+      "name": "Electronics",
+      "slug": "electronics",
+      "image": "https://images.unsplash.com/photo-1498049794561-7780e7231661?w=500",
+      "count": 42
+    },
+    {
+      "id": "3",
+      "name": "Handicrafts & Decor",
+      "slug": "handicrafts",
+      "image": "https://images.unsplash.com/photo-1581337204873-ef36aa186caa?w=500",
+      "count": 38
+    },
+    {
+      "id": "4",
+      "name": "Leather & Footwear",
+      "slug": "leather",
+      "image": "https://images.unsplash.com/photo-1627123424574-724758594e93?w=500",
+      "count": 64
+    },
+    {
+      "id": "5",
+      "name": "Jewelry",
+      "slug": "jewelry",
+      "image": "https://images.unsplash.com/photo-1596462502278-27bf85033e5a?w=500",
+      "count": 28
+    },
+    {
+      "id": "6",
+      "name": "Home & Living",
+      "slug": "home",
+      "image": "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?w=600",
+      "count": 52
+    }
+  ],
+  "brands": [
+    {
+      "id": "1",
+      "name": "Aarong",
+      "slug": "aarong",
+      "website": "https://aarong.com",
+      "productsCount": 142,
+      "status": "active"
+    },
+    {
+      "id": "2",
+      "name": "Yellow",
+      "slug": "yellow",
+      "website": "https://yellowclothing.net",
+      "productsCount": 89,
+      "status": "active"
+    },
+    {
+      "id": "3",
+      "name": "Apex",
+      "slug": "apex",
+      "website": "https://apex4u.com",
+      "productsCount": 215,
+      "status": "active"
+    },
+    {
+      "id": "4",
+      "name": "Walton",
+      "slug": "walton",
+      "website": "https://waltonbd.com",
+      "productsCount": 310,
+      "status": "active"
+    },
+    {
+      "id": "5",
+      "name": "Sailor",
+      "slug": "sailor",
+      "website": "https://sailor.clothing",
+      "productsCount": 64,
+      "status": "active"
+    },
+    {
+      "id": "6",
+      "name": "Bata",
+      "slug": "bata",
+      "website": "https://batabd.com",
+      "productsCount": 180,
+      "status": "active"
+    }
+  ],
+  "orders": [
+    {
+      "id": "ORD-20260818-7117",
+      "orderNumber": "ORD-20260818-7117",
+      "customerName": "Mridul",
+      "customerEmail": "mridul@gmail.com",
+      "customerPhone": "01872762292",
+      "shippingAddress": {
+        "name": "Mridul",
+        "phone": "01872762292",
+        "division": "Dhaka",
+        "district": "Dhaka",
+        "upazila": "Gulshan",
+        "address": "House 42, Road 11, Block D, Banani"
+      },
+      "items": [
+        {
+          "id": "1787068775769",
+          "name": "asdsfw",
+          "price": 1324,
+          "quantity": 1,
+          "image": "http://localhost:8000/uploads/1787068763732-1767q3ts1.jpg"
+        },
+        {
+          "id": "1787063508224",
+          "name": "Walton Soundbar Pro 120W with Subwoofer",
+          "price": 9800,
+          "quantity": 1,
+          "image": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=600"
+        },
+        {
+          "id": "1787063508221",
+          "name": "Brass Embossed Peacock Showpiece",
+          "price": 2400,
+          "quantity": 1,
+          "image": "https://images.unsplash.com/photo-1581337204873-ef36aa186caa?w=600"
+        }
+      ],
+      "subtotal": 13524,
+      "shippingCharge": 0,
+      "discountAmount": 0,
+      "total": 13524,
+      "paymentMethod": "cod",
+      "paymentStatus": "pending",
+      "transactionId": "TRX-COD-628306",
+      "status": "pending",
+      "timeline": [
+        {
+          "status": "Order Placed",
+          "time": "8/18/2026, 10:21:15 PM",
+          "done": true
+        },
+        {
+          "status": "Cash on Delivery (Payment on Doorstep)",
+          "time": "8/18/2026, 10:21:15 PM",
+          "done": true
+        },
+        {
+          "status": "Processing in Warehouse",
+          "time": "Pending",
+          "done": false
+        },
+        {
+          "status": "Shipped via Steadfast Courier",
+          "time": "Pending",
+          "done": false
+        },
+        {
+          "status": "Delivered",
+          "time": "Pending",
+          "done": false
+        }
+      ],
+      "createdAt": "2026-08-18T16:21:15.386Z"
+    },
+    {
+      "id": "ORD-20260818-5985",
+      "orderNumber": "ORD-20260818-5985",
+      "customerName": "Rahim Uddin",
+      "customerEmail": "rahim@gmail.com",
+      "customerPhone": "01711223344",
+      "shippingAddress": {
+        "name": "Rahim Uddin",
+        "phone": "01711223344",
+        "division": "Dhaka",
+        "district": "Dhaka",
+        "upazila": "Gulshan",
+        "address": "Banani, Dhaka"
+      },
+      "items": [
+        {
+          "id": "1787068775769",
+          "name": "asdsfw",
+          "price": 1324,
+          "quantity": 1,
+          "image": "http://localhost:8000/uploads/1787068763732-1767q3ts1.jpg"
+        }
+      ],
+      "subtotal": 1324,
+      "shippingCharge": 0,
+      "discountAmount": 0,
+      "total": 1324,
+      "paymentMethod": "bkash",
+      "paymentStatus": "paid",
+      "transactionId": "TRX-BKASH-346541",
+      "status": "pending",
+      "timeline": [
+        {
+          "status": "Order Placed",
+          "time": "8/18/2026, 10:15:32 PM",
+          "done": true
+        },
+        {
+          "status": "Payment Confirmed via BKASH (TRX-BKASH-346541)",
+          "time": "8/18/2026, 10:15:32 PM",
+          "done": true
+        },
+        {
+          "status": "Processing in Warehouse",
+          "time": "Pending",
+          "done": false
+        },
+        {
+          "status": "Shipped via Steadfast Courier",
+          "time": "Pending",
+          "done": false
+        },
+        {
+          "status": "Delivered",
+          "time": "Pending",
+          "done": false
+        }
+      ],
+      "createdAt": "2026-08-18T16:15:32.615Z"
+    },
+    {
+      "id": "ORD-20260818-3825",
+      "orderNumber": "ORD-20260818-3825",
+      "customerName": "Sadia Islam",
+      "customerEmail": "sadia.islam@outlook.com",
+      "customerPhone": "01611223399",
+      "shippingAddress": {
+        "name": "Sadia Islam",
+        "district": "Chittagong",
+        "phone": "01611223399",
+        "division": "Chittagong",
+        "upazila": "Panchlaish",
+        "address": "House 14, Nasirabad Housing"
+      },
+      "items": [
+        {
+          "price": 12500,
+          "quantity": 1,
+          "name": "Jamdani Saree",
+          "id": "2",
+          "image": "https://images.unsplash.com/photo-1610030469983-98e550d6193c?w=200"
+        }
+      ],
+      "subtotal": 12500,
+      "shippingCharge": 0,
+      "discountAmount": 0,
+      "total": 12500,
+      "paymentMethod": "cod",
+      "paymentStatus": "pending",
+      "transactionId": null,
+      "status": "pending",
+      "timeline": [
+        {
+          "status": "Order Placed",
+          "time": "8/18/2026, 10:06:31 PM",
+          "done": true
+        },
+        {
+          "status": "Cash on Delivery (Payment on Doorstep)",
+          "time": "8/18/2026, 10:06:31 PM",
+          "done": true
+        },
+        {
+          "status": "Processing in Warehouse",
+          "time": "Pending",
+          "done": false
+        },
+        {
+          "status": "Shipped via Steadfast Courier",
+          "time": "Pending",
+          "done": false
+        },
+        {
+          "status": "Delivered",
+          "time": "Pending",
+          "done": false
+        }
+      ],
+      "createdAt": "2026-08-18T16:06:31.287Z"
+    },
+    {
+      "id": "ORD-20260818-6413",
+      "orderNumber": "ORD-20260818-6413",
+      "customerName": "Kabir Ahmed",
+      "customerEmail": "kabir.ahmed@gmail.com",
+      "customerPhone": "01987654321",
+      "shippingAddress": {
+        "name": "Kabir Ahmed",
+        "district": "Sylhet",
+        "phone": "01987654321",
+        "division": "Sylhet",
+        "upazila": "Kotwali",
+        "address": "Zindabazar Point, Sylhet"
+      },
+      "items": [
+        {
+          "price": 1990,
+          "quantity": 2,
+          "name": "Sonar Bangla Handloom Khadi Shirt",
+          "id": "1",
+          "image": "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=200"
+        }
+      ],
+      "subtotal": 3980,
+      "shippingCharge": 0,
+      "discountAmount": 500,
+      "total": 3480,
+      "paymentMethod": "bkash",
+      "paymentStatus": "paid",
+      "transactionId": "9J88BKASH77",
+      "status": "pending",
+      "timeline": [
+        {
+          "status": "Order Placed",
+          "time": "8/18/2026, 10:06:31 PM",
+          "done": true
+        },
+        {
+          "status": "Payment Confirmed via BKASH (9J88BKASH77)",
+          "time": "8/18/2026, 10:06:31 PM",
+          "done": true
+        },
+        {
+          "status": "Processing in Warehouse",
+          "time": "Pending",
+          "done": false
+        },
+        {
+          "status": "Shipped via Steadfast Courier",
+          "time": "Pending",
+          "done": false
+        },
+        {
+          "status": "Delivered",
+          "time": "Pending",
+          "done": false
+        }
+      ],
+      "createdAt": "2026-08-18T16:06:31.277Z"
+    },
+    {
+      "id": "ORD-20240818-0912",
+      "orderNumber": "ORD-20240818-0912",
+      "customerName": "Rahim Uddin",
+      "customerEmail": "rahim@gmail.com",
+      "customerPhone": "01711223344",
+      "shippingAddress": {
+        "name": "Rahim Uddin",
+        "phone": "01711223344",
+        "division": "Dhaka",
+        "district": "Dhaka",
+        "upazila": "Gulshan",
+        "address": "House 42, Road 11, Block D, Banani"
+      },
+      "items": [
+        {
+          "id": "1",
+          "name": "Premium Panjabi - Emerald Edition",
+          "price": 2800,
+          "quantity": 1,
+          "image": "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=200"
+        }
+      ],
+      "subtotal": 2800,
+      "shippingCharge": 60,
+      "discountAmount": 0,
+      "total": 2860,
+      "paymentMethod": "sslcommerz",
+      "paymentStatus": "paid",
+      "status": "processing",
+      "timeline": [
+        {
+          "status": "Order Placed",
+          "time": "Aug 18, 2026 10:30 AM",
+          "done": true
+        },
+        {
+          "status": "Payment Confirmed (bKash)",
+          "time": "Aug 18, 2026 10:32 AM",
+          "done": true
+        },
+        {
+          "status": "Processing in Warehouse",
+          "time": "Aug 18, 2026 11:00 AM",
+          "done": true
+        },
+        {
+          "status": "Handed over to Courier",
+          "time": "Pending",
+          "done": false
+        },
+        {
+          "status": "Delivered",
+          "time": "Pending",
+          "done": false
+        }
+      ],
+      "createdAt": "2026-08-18T04:30:00.000Z"
+    },
+    {
+      "id": "ORD-20240817-8841",
+      "orderNumber": "ORD-20240817-8841",
+      "customerName": "Nusrat Jahan",
+      "customerEmail": "nusrat@yahoo.com",
+      "customerPhone": "01812345678",
+      "shippingAddress": {
+        "name": "Nusrat Jahan",
+        "phone": "01812345678",
+        "division": "Chittagong",
+        "district": "Chittagong",
+        "upazila": "Panchlaish",
+        "address": "Flat 4B, Hill View Residential Area"
+      },
+      "items": [
+        {
+          "id": "2",
+          "name": "Jamdani Saree - Authentic Handloom Weave",
+          "price": 12500,
+          "quantity": 1,
+          "image": "https://images.unsplash.com/photo-1610030469983-98e550d6193c?w=200"
+        }
+      ],
+      "subtotal": 12500,
+      "shippingCharge": 0,
+      "discountAmount": 1000,
+      "total": 11500,
+      "paymentMethod": "sslcommerz",
+      "paymentStatus": "paid",
+      "status": "shipped",
+      "timeline": [
+        {
+          "status": "Order Placed",
+          "time": "Aug 17, 2026 02:15 PM",
+          "done": true
+        },
+        {
+          "status": "Payment Confirmed (Visa)",
+          "time": "Aug 17, 2026 02:16 PM",
+          "done": true
+        },
+        {
+          "status": "Packed & Quality Checked",
+          "time": "Aug 17, 2026 04:00 PM",
+          "done": true
+        },
+        {
+          "status": "Shipped via Steadfast (Tracking: ST-8812)",
+          "time": "Aug 18, 2026 09:00 AM",
+          "done": true
+        },
+        {
+          "status": "Delivered",
+          "time": "Expected Aug 20",
+          "done": false
+        }
+      ],
+      "createdAt": "2026-08-17T08:15:00.000Z"
+    }
+  ],
+  "customers": [
+    {
+      "id": "1",
+      "name": "Rahim Uddin",
+      "email": "rahim@gmail.com",
+      "phone": "01711223344",
+      "totalOrders": 5,
+      "totalSpent": 14184,
+      "status": "active",
+      "joinedDate": "Jan 12, 2024"
+    },
+    {
+      "id": "2",
+      "name": "Nusrat Jahan",
+      "email": "nusrat@yahoo.com",
+      "phone": "01812345678",
+      "totalOrders": 2,
+      "totalSpent": 18500,
+      "status": "active",
+      "joinedDate": "Feb 20, 2024"
+    },
+    {
+      "id": "3",
+      "name": "Tanvir Rahman",
+      "email": "tanvir.rahman@gmail.com",
+      "phone": "01999887766",
+      "totalOrders": 6,
+      "totalSpent": 42850,
+      "status": "active",
+      "joinedDate": "Mar 05, 2024"
+    },
+    {
+      "id": "4",
+      "name": "Sadia Islam",
+      "email": "sadia.islam@outlook.com",
+      "phone": "01611223399",
+      "totalOrders": 2,
+      "totalSpent": 17000,
+      "status": "active",
+      "joinedDate": "Jul 11, 2024"
+    },
+    {
+      "id": "5",
+      "name": "Kabir Ahmed",
+      "email": "kabir.ahmed@gmail.com",
+      "phone": "01987654321",
+      "totalOrders": 1,
+      "totalSpent": 3480,
+      "status": "active",
+      "joinedDate": "8/18/2026"
+    },
+    {
+      "id": "6",
+      "name": "Mridul",
+      "email": "mridul@gmail.com",
+      "phone": "01872762292",
+      "totalOrders": 1,
+      "totalSpent": 13524,
+      "status": "active",
+      "joinedDate": "8/18/2026"
+    }
+  ],
+  "coupons": [
+    {
+      "id": "1",
+      "code": "EID2026",
+      "type": "percentage",
+      "value": 20,
+      "minOrderAmount": 1500,
+      "maxDiscount": 1000,
+      "usageLimit": 500,
+      "usedCount": 142,
+      "status": "active",
+      "expiresAt": "2026-12-31"
+    },
+    {
+      "id": "2",
+      "code": "BAZAAR10",
+      "type": "percentage",
+      "value": 10,
+      "minOrderAmount": 1000,
+      "maxDiscount": 500,
+      "usageLimit": 1000,
+      "usedCount": 389,
+      "status": "active",
+      "expiresAt": "2026-12-31"
+    },
+    {
+      "id": "3",
+      "code": "WELCOME500",
+      "type": "flat",
+      "value": 500,
+      "minOrderAmount": 3000,
+      "maxDiscount": 500,
+      "usageLimit": 200,
+      "usedCount": 88,
+      "status": "active",
+      "expiresAt": "2026-12-31"
+    }
+  ],
+  "banners": [
+    {
+      "id": "1",
+      "title": "Discover Authentic Bangladesh",
+      "subtitle": "Handcrafted textiles, clothing and cultural masterpieces",
+      "image": "/hero_banner.jpg",
+      "link": "/shop",
+      "status": "active"
+    },
+    {
+      "id": "2",
+      "title": "Eid Special Sale",
+      "subtitle": "Up to 40% off on all panjabis, sarees and footwear",
+      "image": "https://images.unsplash.com/photo-1610030469983-98e550d6193c?w=1200",
+      "link": "/shop?sale=1",
+      "status": "active"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "1",
+      "productId": "1",
+      "productName": "Premium Panjabi",
+      "customerName": "Farhan Ahmed",
+      "rating": 5,
+      "text": "The golden embroidery is exquisite and the cotton feels airy and luxurious.",
+      "date": "July 2024",
+      "status": "approved"
+    },
+    {
+      "id": "2",
+      "productId": "2",
+      "productName": "Jamdani Saree",
+      "customerName": "Nadia Islam",
+      "rating": 5,
+      "text": "Authentic Jamdani weave, beautiful color and fast doorstep delivery in Chittagong.",
+      "date": "June 2024",
+      "status": "approved"
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": "LOG-5388",
+      "admin": "admin@bazaarbd.com",
+      "action": "NEW_ORDER_PLACED",
+      "target": "Order #ORD-20260818-7117",
+      "details": "Placed by Mridul, Method: COD, Total: ৳13524",
+      "ip": "127.0.0.1",
+      "timestamp": "8/18/2026, 10:21:15 PM"
+    },
+    {
+      "id": "LOG-2617",
+      "admin": "admin@bazaarbd.com",
+      "action": "NEW_ORDER_PLACED",
+      "target": "Order #ORD-20260818-5985",
+      "details": "Placed by Rahim Uddin, Method: BKASH, Total: ৳1324",
+      "ip": "127.0.0.1",
+      "timestamp": "8/18/2026, 10:15:32 PM"
+    },
+    {
+      "id": "LOG-5407",
+      "admin": "admin@bazaarbd.com",
+      "action": "USER_REGISTERED",
+      "target": "Customer #Mridul",
+      "details": "Registered new account (mridul@gmail.com)",
+      "ip": "127.0.0.1",
+      "timestamp": "8/18/2026, 10:08:35 PM"
+    },
+    {
+      "id": "LOG-1288",
+      "admin": "admin@bazaarbd.com",
+      "action": "NEW_ORDER_PLACED",
+      "target": "Order #ORD-20260818-3825",
+      "details": "Placed by Sadia Islam, Method: COD, Total: ৳12500",
+      "ip": "127.0.0.1",
+      "timestamp": "8/18/2026, 10:06:31 PM"
+    },
+    {
+      "id": "LOG-1278",
+      "admin": "admin@bazaarbd.com",
+      "action": "NEW_ORDER_PLACED",
+      "target": "Order #ORD-20260818-6413",
+      "details": "Placed by Kabir Ahmed, Method: BKASH, Total: ৳3480",
+      "ip": "127.0.0.1",
+      "timestamp": "8/18/2026, 10:06:31 PM"
+    },
+    {
+      "id": "LOG-1252",
+      "admin": "admin@bazaarbd.com",
+      "action": "USER_REGISTERED",
+      "target": "Customer #Kabir Ahmed",
+      "details": "Registered new account (kabir.ahmed@gmail.com)",
+      "ip": "127.0.0.1",
+      "timestamp": "8/18/2026, 10:06:31 PM"
+    },
+    {
+      "id": "LOG-8397",
+      "admin": "admin@bazaarbd.com",
+      "action": "UPDATE_PRODUCT",
+      "target": "Product #1787068775769 (asdsfw)",
+      "details": "Updated price/stock/category/brand/images",
+      "ip": "127.0.0.1",
+      "timestamp": "8/18/2026, 10:01:58 PM"
+    },
+    {
+      "id": "LOG-5770",
+      "admin": "admin@bazaarbd.com",
+      "action": "CREATE_PRODUCT",
+      "target": "Product #1787068775769 (asdsfw)",
+      "details": "Created SKU: sadfasf, Category: Electronics, Brand: Otobi, Price: ৳1324",
+      "ip": "127.0.0.1",
+      "timestamp": "8/18/2026, 9:59:35 PM"
+    },
+    {
+      "id": "LOG-1727",
+      "admin": "admin@bazaarbd.com",
+      "action": "UPDATE_CATEGORY",
+      "target": "Category #6 (Home & Living)",
+      "details": "Updated category details & synchronized linked products",
+      "ip": "127.0.0.1",
+      "timestamp": "8/18/2026, 9:58:31 PM"
+    },
+    {
+      "id": "LOG-3181",
+      "admin": "admin@bazaarbd.com",
+      "action": "UPDATE_PRODUCT",
+      "target": "Product #1787062894093 (Almari)",
+      "details": "Updated price/stock/category/brand/images",
+      "ip": "127.0.0.1",
+      "timestamp": "8/18/2026, 8:32:43 PM"
+    },
+    {
+      "id": "LOG-8225",
+      "admin": "admin@bazaarbd.com",
+      "action": "CREATE_PRODUCT",
+      "target": "Product #1787063508224 (Walton Soundbar Pro 120W with Subwoofer)",
+      "details": "Created SKU: BZ-ELC-105, Category: Electronics, Brand: Walton Hi-Tech, Price: ৳9800",
+      "ip": "127.0.0.1",
+      "timestamp": "8/18/2026, 8:31:48 PM"
+    },
+    {
+      "id": "LOG-8222",
+      "admin": "admin@bazaarbd.com",
+      "action": "CREATE_PRODUCT",
+      "target": "Product #1787063508221 (Brass Embossed Peacock Showpiece)",
+      "details": "Created SKU: BZ-DCR-104, Category: Handicrafts & Decor, Brand: Dhamrai Brass Crafts, Price: ৳2400",
+      "ip": "127.0.0.1",
+      "timestamp": "8/18/2026, 8:31:48 PM"
+    },
+    {
+      "id": "LOG-8219",
+      "admin": "admin@bazaarbd.com",
+      "action": "CREATE_PRODUCT",
+      "target": "Product #1787063508218 (Vintage Tan Leather Duffle Travel Bag)",
+      "details": "Created SKU: BZ-LTH-103, Category: Leather & Footwear, Brand: Picasso Leather, Price: ৳6200",
+      "ip": "127.0.0.1",
+      "timestamp": "8/18/2026, 8:31:48 PM"
+    },
+    {
+      "id": "LOG-8216",
+      "admin": "admin@bazaarbd.com",
+      "action": "CREATE_PRODUCT",
+      "target": "Product #1787063508215 (Meenakari Kundan Bridal Choker Set)",
+      "details": "Created SKU: BZ-JWL-102, Category: Jewelry, Brand: Diamond World BD, Price: ৳8500",
+      "ip": "127.0.0.1",
+      "timestamp": "8/18/2026, 8:31:48 PM"
+    },
+    {
+      "id": "LOG-8188",
+      "admin": "admin@bazaarbd.com",
+      "action": "CREATE_PRODUCT",
+      "target": "Product #1787063508187 (Luxury Velvet Sofa Cushion Set)",
+      "details": "Created SKU: BZ-HML-101, Category: Home & Living, Brand: Otobi Home, Price: ৳3200",
+      "ip": "127.0.0.1",
+      "timestamp": "8/18/2026, 8:31:48 PM"
+    },
+    {
+      "id": "LOG-4041",
+      "admin": "admin@bazaarbd.com",
+      "action": "CREATE_PRODUCT",
+      "target": "Product #1787063444040 (Handmade Clay Terracotta Flower Vase)",
+      "details": "Created SKU: BZ-DCR-012, Price: ৳1150",
+      "ip": "127.0.0.1",
+      "timestamp": "8/18/2026, 8:30:44 PM"
+    },
+    {
+      "id": "LOG-4038",
+      "admin": "admin@bazaarbd.com",
+      "action": "CREATE_PRODUCT",
+      "target": "Product #1787063444037 (Genuine Buffalo Leather Messenger Bag)",
+      "details": "Created SKU: BZ-LTH-011, Price: ৳4800",
+      "ip": "127.0.0.1",
+      "timestamp": "8/18/2026, 8:30:44 PM"
+    },
+    {
+      "id": "LOG-4035",
+      "admin": "admin@bazaarbd.com",
+      "action": "CREATE_PRODUCT",
+      "target": "Product #1787063444034 (Traditional 22K Gold Plated Necklace)",
+      "details": "Created SKU: BZ-JWL-010, Price: ৳14500",
+      "ip": "127.0.0.1",
+      "timestamp": "8/18/2026, 8:30:44 PM"
+    },
+    {
+      "id": "LOG-4017",
+      "admin": "admin@bazaarbd.com",
+      "action": "CREATE_PRODUCT",
+      "target": "Product #1787063444016 (Chittagong Teak Wood Dining Chair)",
+      "details": "Created SKU: BZ-HML-009, Price: ৳6800",
+      "ip": "127.0.0.1",
+      "timestamp": "8/18/2026, 8:30:44 PM"
+    },
+    {
+      "id": "LOG-9876",
+      "admin": "admin@bazaarbd.com",
+      "action": "CREATE_PRODUCT",
+      "target": "Product #1787062979875 (Hello)",
+      "details": "Created SKU: BZ-KHD-7745, Price: ৳1232",
+      "ip": "127.0.0.1",
+      "timestamp": "8/18/2026, 8:22:59 PM"
+    },
+    {
+      "id": "LOG-4095",
+      "admin": "admin@bazaarbd.com",
+      "action": "CREATE_PRODUCT",
+      "target": "Product #1787062894093 (Almari)",
+      "details": "Created SKU: BZ-KHD-775, Price: ৳45334",
+      "ip": "127.0.0.1",
+      "timestamp": "8/18/2026, 8:21:34 PM"
+    },
+    {
+      "id": "LOG-2038",
+      "admin": "admin@bazaarbd.com",
+      "action": "UPDATE_PRODUCT",
+      "target": "Product #1787052379840 (Sonar Bangla Handloom Khadi Shirt)",
+      "details": "Updated price/stock/images/details",
+      "ip": "127.0.0.1",
+      "timestamp": "8/18/2026, 8:16:32 PM"
+    },
+    {
+      "id": "LOG-3998",
+      "admin": "admin@bazaarbd.com",
+      "action": "UPDATE_PRODUCT",
+      "target": "Product #1 (Premium Panjabi - Emerald Edition)",
+      "details": "Updated price/stock/details",
+      "ip": "127.0.0.1",
+      "timestamp": "8/18/2026, 8:10:43 PM"
+    },
+    {
+      "id": "LOG-0906",
+      "admin": "admin@bazaarbd.com",
+      "action": "UPDATE_PRODUCT",
+      "target": "Product #1787052379840 (Sonar Bangla Handloom Khadi Shirt)",
+      "details": "Updated price/stock/details",
+      "ip": "127.0.0.1",
+      "timestamp": "8/18/2026, 8:05:20 PM"
+    },
+    {
+      "id": "LOG-9841",
+      "admin": "admin@bazaarbd.com",
+      "action": "CREATE_PRODUCT",
+      "target": "Product #1787052379840 (Sonar Bangla Handloom Khadi Shirt)",
+      "details": "Created SKU: BZ-KHD-777, Price: ৳2450",
+      "ip": "127.0.0.1",
+      "timestamp": "8/18/2026, 5:26:19 PM"
+    },
+    {
+      "id": "LOG-1001",
+      "admin": "Super Admin (admin@bazaarbd.com)",
+      "action": "SYSTEM_INITIALIZED",
+      "target": "BazaarBD API & DB",
+      "details": "Database loaded and seed datasets mounted",
+      "ip": "127.0.0.1",
+      "timestamp": "8/18/2026, 3:21:31 PM"
+    }
+  ],
+  "settings": {
+    "storeName": "BazaarBD",
+    "storeEmail": "support@bazaarbd.com",
+    "storePhone": "+880 1700-000000",
+    "currency": "BDT (৳)",
+    "vatPercentage": 5,
+    "sslcommerzSandbox": true,
+    "freeShippingMinAmount": 1000
+  },
+  "users": [
+    {
+      "id": "usr-1787069191241",
+      "name": "Kabir Ahmed",
+      "email": "kabir.ahmed@gmail.com",
+      "phone": "01987654321",
+      "password": "secretpassword",
+      "role": "customer",
+      "address": "Zindabazar Point, Sylhet",
+      "division": "Sylhet",
+      "district": "Sylhet",
+      "upazila": "Kotwali",
+      "createdAt": "2026-08-18T16:06:31.241Z"
+    },
+    {
+      "id": "usr-1787069315405",
+      "name": "Mridul",
+      "email": "mridul@gmail.com",
+      "phone": "01872762292",
+      "password": "Hello@1234",
+      "role": "customer",
+      "address": "",
+      "division": "Dhaka",
+      "district": "Dhaka",
+      "upazila": "Gulshan",
+      "createdAt": "2026-08-18T16:08:35.405Z"
+    }
+  ],
+  "payments": [
+    {
+      "id": "PAY-1787069732615",
+      "orderNumber": "ORD-20260818-5985",
+      "method": "bkash",
+      "transactionId": "TRX-BKASH-346541",
+      "amount": 1324,
+      "currency": "BDT",
+      "payerPhone": "01711223344",
+      "status": "completed",
+      "paidAt": "2026-08-18T16:15:32.615Z"
+    },
+    {
+      "id": "PAY-1787069191277",
+      "orderNumber": "ORD-20260818-6413",
+      "method": "bkash",
+      "transactionId": "9J88BKASH77",
+      "amount": 3480,
+      "currency": "BDT",
+      "payerPhone": "01987654321",
+      "status": "completed",
+      "paidAt": "2026-08-18T16:06:31.277Z"
+    }
+  ]
+}

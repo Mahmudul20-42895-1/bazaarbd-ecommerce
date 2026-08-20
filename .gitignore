@@ -1,0 +1,14 @@
+node_modules/
+.next/
+out/
+dist/
+build/
+*.log
+.env
+.env.*
+!.env.example
+server/uploads/*
+!server/uploads/.gitkeep
+backend/vendor/
+backend/storage/*.key
+backend/storage/app/public/
