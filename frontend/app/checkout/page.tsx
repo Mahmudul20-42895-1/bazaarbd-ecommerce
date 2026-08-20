@@ -87,10 +87,18 @@ export default function CheckoutPage() {
     addItem({
       id: "1",
       name: "Sonar Bangla Handloom Khadi Shirt",
+      slug: "sonar-bangla-handloom-khadi-shirt",
+      description: "A handloom cotton shirt inspired by Bangladesh's traditional textile craft.",
       price: 1990,
-      image: "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=600",
-      category: "Clothing & Apparel"
-    }, 1)
+      categoryId: "1",
+      quantity: 1,
+      images: ["https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=600"],
+      rating: 0,
+      reviewCount: 0,
+      inStock: true,
+      createdAt: new Date().toISOString(),
+      cartItemId: "sample-item"
+    })
   }
 
   const handleApplyCoupon = async () => {
