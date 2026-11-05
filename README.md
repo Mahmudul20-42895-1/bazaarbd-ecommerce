@@ -1,98 +1,139 @@
-# 🇧🇩 BazaarBD — Bangladesh E-Commerce Platform
+# Kinbo
 
-A production-ready e-commerce platform built for the Bangladesh market featuring Next.js 14, Tailwind CSS, an active REST API & Database engine, and SSLCOMMERZ gateway architecture.
+Kinbo is a full-stack online shopping website built for the Bangladesh market. It has a customer storefront, an admin dashboard and a REST API. Customers can register with OTP verification, browse products, manage a cart, check out and track orders. Admins manage orders and products from a separate dashboard.
 
-## 🚀 Quick Start (Manual Run)
+> Personal portfolio project by MD. Mahmudul Hasan.
 
-Open 3 separate terminals:
+## Live Demo
 
-### 1. Database & REST API Server (Port 8000)
-```powershell
-cd server
-node server.js
+| Part | Link |
+|---|---|
+| Storefront | https://bazaarbd-ecommerce.vercel.app/ |
+| Admin Dashboard | https://bazaarbd-admin-pfy5ehjg2-md-mahmudul-hasans-projects-5eead7ea.vercel.app/ |
+| API Health Check | https://bazaarbd-api.onrender.com/api/v1/health |
+
+*The API runs on a free Render plan and may take up to a minute to wake up on the first request.*
+
+## Tech Stack
+
+| Layer | Technology |
+|---|---|
+| Backend API | Laravel 11, PHP 8.2 |
+| Database | MySQL 8.0 |
+| Cache | Redis |
+| Authentication | Laravel Sanctum (token based) |
+| Storefront | Next.js, React, Tailwind CSS |
+| Admin Dashboard | Next.js, React, Tailwind CSS |
+| Infrastructure | Docker, Nginx |
+| Deployment | Render (API), Vercel (frontends) |
+| Local email testing | Mailhog |
+
+## Features
+
+**Customer**
+- Register, login and OTP verification
+- Browse products and categories
+- Cart management
+- Checkout and order history
+- Profile
+
+**Admin**
+- Separate admin login
+- Dashboard statistics
+- Order list
+- Product list
+
+**Payments**
+- SSLCOMMERZ: [Implemented / Sandbox only / Planned]
+
+## Project Structure
+
+```
+kinbo-ecommerce/
+|-- backend/      # Laravel REST API
+|-- frontend/     # Customer storefront (Next.js)
+|-- admin/        # Admin dashboard (Next.js)
+|-- docker/       # Docker configuration
+|-- render.yaml   # Render deployment config
+`-- README.md
 ```
 
-### 2. Customer Storefront (Port 3000)
-```powershell
+## API Overview
+
+Base URL (local): `http://localhost:8000/api/v1`
+
+| Access | Endpoints |
+|---|---|
+| Public | Register, Login, Send OTP, Verify OTP, List products, List categories, Health check |
+| Customer (token required) | Profile, Cart, Checkout, Orders |
+| Admin (admin token required) | Admin login, Dashboard stats, Orders, Products |
+
+Full route list: `backend/routes/api.php`
+
+## Getting Started
+
+### Prerequisites
+- PHP 8.2 and Composer
+- Node.js 18 or higher
+- MySQL 8.0 and Redis (or Docker)
+
+### Run with Docker
+
+```bash
+git clone https://github.com/Mahmudul20-42895-1/kinbo-ecommerce.git
+cd kinbo-ecommerce
+docker compose up -d
+```
+
+[CHECK: add the exact command you use if different]
+
+### Run manually
+
+**Backend**
+```bash
+cd backend
+cp .env.example .env
+composer install
+php artisan key:generate
+php artisan migrate --seed
+php artisan serve --port=8000
+```
+
+**Storefront**
+```bash
 cd frontend
+npm install
 npm run dev
 ```
 
-### 3. Admin Dashboard (Port 3001)
-```powershell
+**Admin dashboard**
+```bash
 cd admin
-npm run dev -- -p 3001
+npm install
+npm run dev
 ```
 
-## 🌐 Live URLs
-- **Storefront**: [Open BazaarBD Storefront](https://bazaarbd-ecommerce.vercel.app)
-- **Admin Dashboard**: [Open BazaarBD Admin](https://bazaarbd-admin-pfy5ehjg2-md-mahmudul-hasans-projects-5eead7ea.vercel.app)
-- **API Health**: [Check API Health](https://bazaarbd-api.onrender.com/api/v1/health)
+Local ports: API `8000`, Storefront [PORT], Admin [PORT], Mailhog `8025`.
 
+### Admin account
 
-## Tech Stack
-- **Backend**: Laravel 11, PHP 8.2, MySQL 8.0, Redis, Sanctum
-- **Frontend**: Next.js (React), Tailwind CSS
-- **Admin**: Next.js (React), Tailwind CSS
-- **Infrastructure**: Docker, Nginx
+`php artisan migrate --seed` creates a default admin account (see `backend/database/seeders`). **Change its password immediately and never use default credentials on a deployed site.**
 
-## Quick Start (Docker)
+## Environment Variables
 
-1. Clone the repository and navigate to the root directory.
-2. Setup environment variables:
-   ```bash
-   cp backend/.env.example backend/.env
-   # Generate APP_KEY inside workspace container or via host php if available
-   ```
-3. Start the infrastructure:
-   ```bash
-   docker-compose -f docker/docker-compose.yml up -d
-   ```
-4. Install backend dependencies and run migrations:
-   ```bash
-   docker exec -it bazaarbd_php bash
-   composer install
-   php artisan key:generate
-   php artisan migrate --seed
-   exit
-   ```
+Copy `backend/.env.example` to `backend/.env` and fill in your own database, Redis, mail and payment values. Never commit `.env` or real keys.
 
-## Manual Setup Instructions
+## Testing
 
-If you prefer running without Docker:
-1. Ensure PHP 8.2, MySQL 8.0, Redis, and Node 20 are installed locally.
-2. In `backend/`: Run `composer install`, setup `.env`, `php artisan key:generate`, `php artisan migrate`, and `php artisan serve`.
-3. In `frontend/` and `admin/`: Run `npm install` and `npm run dev`.
+API test cases and bug reports: [TESTING.md](TESTING.md)
+Postman collection: [postman/](postman/)
 
-## Ports and Access
-- Frontend App: `http://localhost:3000`
-- Admin Panel: `http://localhost:3001`
-- Backend API: `http://localhost:8000/api/v1`
-- Mailhog (Email Testing): `http://localhost:8025`
+## Author
 
-## API Endpoints Summary
+MD. Mahmudul Hasan
+GitHub: https://github.com/Mahmudul20-42895-1
+Email: hasan.mahmudul.42895@gmail.com
 
-### Public
-- `POST /api/v1/auth/register`
-- `POST /api/v1/auth/login`
-- `POST /api/v1/auth/send-otp`
-- `POST /api/v1/auth/verify-otp`
-- `GET /api/v1/products`
-- `GET /api/v1/categories`
+## License
 
-### Customer (Requires Token)
-- `GET /api/v1/profile`
-- `GET /api/v1/cart`
-- `POST /api/v1/checkout`
-- `GET /api/v1/orders`
-
-### Admin (Requires Admin Token)
-- `POST /api/v1/admin/auth/login`
-- `GET /api/v1/admin/dashboard/stats`
-- `GET /api/v1/admin/orders`
-- `GET /api/v1/admin/products`
-
-## Admin Access Instructions
-- **Email**: admin@bazaarbd.com
-- **Password**: password
-*(Assuming default seeder credentials)*
+MIT License. See the `LICENSE` file.
